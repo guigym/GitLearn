@@ -7,7 +7,12 @@
 #include<iostream>
 using namespace std;
 
+void output(int a){
+   cout << "input val is " << a << endl;
+   return;
+}
 int main() {
    cout << "here is the 1st cpp file\n";
+   output(100);
    return 0;
 }
